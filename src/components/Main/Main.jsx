@@ -17,7 +17,7 @@ const Main = () => {
         return (
     <div className="main">
         <div className="nav">
-            <p className="">Gemini</p>
+            <p className="">SmartChat</p>
             <img src="/luffy.png" alt="" className="" />
         </div>
 
