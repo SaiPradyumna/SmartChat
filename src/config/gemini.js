@@ -10,7 +10,7 @@ const apiKey= import.meta.env.VITE_GEMINI_API_KEY
 console.log(import.meta.env)
 console.log("API Key:", apiKey)
 
-//const apiKey = "AIzaSyBQrMMd3MluwyYQVAmDj5Rr5a1nkk_ElEc" // Fetch API key from the environment variable
+
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
